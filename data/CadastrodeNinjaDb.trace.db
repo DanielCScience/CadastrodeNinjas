@@ -1,0 +1,3 @@
+2025-12-01 20:41:37.819815-03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT*[*]FROMTB_MISSOES"; SQL statement:
+SELECT*FROMTB_MISSOES [42000-224]
