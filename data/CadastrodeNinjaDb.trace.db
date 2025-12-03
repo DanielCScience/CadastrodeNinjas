@@ -1,3 +1,222 @@
 2025-12-01 20:41:37.819815-03:00 jdbc[14]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT*[*]FROMTB_MISSOES"; SQL statement:
 SELECT*FROMTB_MISSOES [42000-224]
+2025-12-03 18:59:37.357319-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]SELEC\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000aINSERT INTO (ID, EMAIL, IDADE, IM_URL, NOME, ,ISSOES_ID)"; expected "SAVEPOINT, SCRIPT, SHUTDOWN"; SQL statement:
+SELEC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO (ID, EMAIL, IDADE, IM_URL, NOME, ,ISSOES_ID) [42001-224]
+2025-12-03 18:59:38.725203-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO [*](ID, EMAIL, IDADE, IM_URL, NOME, ,ISSOES_ID)"; expected "identifier"; SQL statement:
+INSERT INTO (ID, EMAIL, IDADE, IM_URL, NOME, ,ISSOES_ID) [42001-224]
+2025-12-03 19:01:05.718730-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]SELEC\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000a\000d\000aINSERT INTO (ID, EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)\000d\000aVALUES (1, ""Naruto@gmail.com"", ""https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180"", ""Naruto Uzumaki"", 1)"; expected "SAVEPOINT, SCRIPT, SHUTDOWN"; SQL statement:
+SELEC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO (ID, EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES (1, "Naruto@gmail.com", "https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180", "Naruto Uzumaki", 1) [42001-224]
+2025-12-03 19:01:19.287563-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO [*](ID, EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)\000d\000aVALUES (1, ""Naruto@gmail.com"", ""https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180"", ""Naruto Uzumaki"", 1)"; expected "identifier"; SQL statement:
+INSERT INTO (ID, EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES (1, "Naruto@gmail.com", "https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180", "Naruto Uzumaki", 1) [42001-224]
+2025-12-03 19:01:23.195803-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO [*](ID, EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)\000d\000aVALUES (1, ""Naruto@gmail.com"", ""https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180"", ""Naruto Uzumaki"", 1)"; expected "identifier"; SQL statement:
+INSERT INTO (ID, EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES (1, "Naruto@gmail.com", "https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180", "Naruto Uzumaki", 1) [42001-224]
+2025-12-03 19:01:23.847795-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO [*](ID, EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)\000d\000aVALUES (1, ""Naruto@gmail.com"", ""https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180"", ""Naruto Uzumaki"", 1)"; expected "identifier"; SQL statement:
+INSERT INTO (ID, EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES (1, "Naruto@gmail.com", "https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180", "Naruto Uzumaki", 1) [42001-224]
+2025-12-03 19:01:24.408566-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO [*](ID, EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)\000d\000aVALUES (1, ""Naruto@gmail.com"", ""https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180"", ""Naruto Uzumaki"", 1)"; expected "identifier"; SQL statement:
+INSERT INTO (ID, EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES (1, "Naruto@gmail.com", "https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180", "Naruto Uzumaki", 1) [42001-224]
+2025-12-03 19:01:37.922738-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO [*](ID, EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)\000d\000aVALUES (1, ""Naruto@gmail.com"",22, ""https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180"", ""Naruto Uzumaki"", 1)"; expected "identifier"; SQL statement:
+INSERT INTO (ID, EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES (1, "Naruto@gmail.com",22, "https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180", "Naruto Uzumaki", 1) [42001-224]
+2025-12-03 19:02:07.556159-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "Naruto@gmail.com" not found; SQL statement:
+INSERT INTO TB_CADASTRO(ID, EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES (1, "Naruto@gmail.com",22, "https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180", "Naruto Uzumaki", 1) [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:244)
+	at org.h2.expression.ExpressionColumn.optimizeOther(ExpressionColumn.java:226)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:213)
+	at org.h2.command.dml.Insert.doPrepare(Insert.java:300)
+	at org.h2.command.dml.DataChangeStatement.prepare(DataChangeStatement.java:37)
+	at org.h2.command.Parser.prepareCommand(Parser.java:489)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:639)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:559)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:245)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1345)
+	at org.h2.server.web.WebApp.query(WebApp.java:1143)
+	at org.h2.server.web.WebApp.query(WebApp.java:1119)
+	at org.h2.server.web.WebApp.process(WebApp.java:245)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:177)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-12-03 19:02:22.874525-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
+2025-12-03 19:02:23.681582-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
+2025-12-03 19:02:23.935776-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
+2025-12-03 19:02:24.149933-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
+2025-12-03 19:02:24.393706-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
+2025-12-03 19:02:24.661627-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
+2025-12-03 19:02:24.945160-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
+2025-12-03 19:02:25.473246-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
+2025-12-03 19:02:25.677924-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
+2025-12-03 19:02:25.811596-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
+2025-12-03 19:02:26.007328-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
+2025-12-03 19:02:26.196162-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
+2025-12-03 19:02:26.355421-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
+2025-12-03 19:02:26.512409-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
+2025-12-03 19:02:26.700632-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
+2025-12-03 19:02:26.883348-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
+2025-12-03 19:02:27.063516-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
+2025-12-03 19:02:27.228287-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
+2025-12-03 19:02:27.408207-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
+2025-12-03 19:02:27.583270-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
+2025-12-03 19:02:27.756207-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
+2025-12-03 19:02:27.922198-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
+2025-12-03 19:02:28.088113-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_NINJAS" not found; SQL statement:
+INSERT INTO tb_ninjas (EMAIL, IDADE, IMG_URL, NOME, MISSOES_ID)
+VALUES ('Naruto@gmail.com', 22, 'https://tse3.mm.bing.net/th/id/OIP.Ec42vFv-BO5s1RYHJA0h7wHaEK?pid=Api&P=0&h=180', 'Naruto Uzumaki', 1) [42102-224]
