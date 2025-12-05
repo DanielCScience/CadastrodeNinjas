@@ -37,6 +37,16 @@ public class NinjaService {
 
     }
 
+    //Atualizar ninja
+    //primeiro parametro verifica a existencia e o segundo atualiza
+    public NinjaModel atualizarNinja(Long id, NinjaModel ninjaAtualizado){
+        if (ninjaRepository.existsById(id)){
+            ninjaAtualizado.setId(id);
+            return ninjaRepository.save(ninjaAtualizado);
+
+        }
+        return null;
+    }
 
 
 
