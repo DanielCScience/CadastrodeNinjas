@@ -2,10 +2,7 @@ package dev.java10x.CadastrodeNinjas.Ninjas;
 
 import dev.java10x.CadastrodeNinjas.Missoes.MissoesModel;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 
 import java.util.List;
 
@@ -16,6 +13,7 @@ import java.util.List;
 @NoArgsConstructor
 @Data
 @AllArgsConstructor
+@ToString(exclude = "missoes")
 public class NinjaModel {
 
     //o id logo abaixo será detalhado como id da entidade e o generated gera uma estratégia para o id
