@@ -2,6 +2,9 @@ package dev.java10x.CadastrodeNinjas.Missoes;
 
 import dev.java10x.CadastrodeNinjas.Ninjas.NinjaDTO;
 import dev.java10x.CadastrodeNinjas.Ninjas.NinjaModel;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -27,7 +30,12 @@ public class MissoesController {
 
     //POST -- Mandar uma requisição para criar as missoes
     @PostMapping("/criar")
-    public ResponseEntity<String> criarMissoes(@RequestBody MissoesModel missao){
+    @Operation(summary = "Cria uma nova missão", description = "Rota cria uma nova missao e insere no banco de dados")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "201", description = "Missao criada com sucesso"),
+            @ApiResponse(responseCode = "400", description = "Erro na criaçao da missa")
+    })
+    public ResponseEntity<String> criarMissoes(@RequestBody MissoesDTO missao){
         MissoesDTO novaMissao = missoesService.criarMissao(missao);
 
         return ResponseEntity.status(HttpStatus.CREATED)
@@ -36,6 +44,11 @@ public class MissoesController {
 
     //Mostrar Missao por id(READ)
     @GetMapping("/listar/{id}" )
+    @Operation(summary = "Lista a missao por Id", description = "Rota lista uma missao pelo seu id")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Missao encontrada com sucesso"),
+            @ApiResponse(responseCode = "404", description = "Missao nao encontrada")
+    })
     public ResponseEntity<?> listarMissoesPorId(@PathVariable Long id){
         MissoesDTO MissaoPorId = missoesService.listarMissaoPorId(id);
 
@@ -49,6 +62,11 @@ public class MissoesController {
 
     //PUT -- Mandar uma requisição para alterar as missoes
     @PutMapping("/alterar")
+    @Operation(summary = "Altera a missao por Id", description = "Rota altera uma missap pelo seu id")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Missao alterada com sucesso"),
+            @ApiResponse(responseCode = "404", description = "Missao nao encontrada, nao foi possivel alterar")
+    })
     public ResponseEntity<?> alterarMissaoPorId(@PathVariable Long id, @RequestBody MissoesDTO missaoAtualizada) {
         MissoesDTO alterar = missoesService.atualizarMissao(id, missaoAtualizada);
 

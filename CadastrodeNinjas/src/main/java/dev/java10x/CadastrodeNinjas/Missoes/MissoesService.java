@@ -17,7 +17,7 @@ public class MissoesService {
     }
 
     //Criar missão
-    public  MissoesDTO criarMissao(MissoesModel missoesDTO){
+    public  MissoesDTO criarMissao(MissoesDTO missoesDTO){
         MissoesModel missao = missoesMapper.map(missoesDTO);
         missao = missoesRepository.save(missao);
         return missoesMapper.map(missao);
